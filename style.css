@@ -1,0 +1,92 @@
+/* @import url(<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://netrinoimages.s3.eu-west-2.amazonaws.com/2018/11/20/562992/286476/apple_logo_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_2998692.jpg" width="601" height="338">)
+  
+*{box-sizing : border-box; */
+
+
+html {
+    scroll-behavior: smooth;
+
+
+}
+
+body {
+    background-color: LightPink;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    color: Purple;
+    text-decoration: none;
+}
+
+a:hover {
+    color: DeepPink;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+    width: 100vw;
+    position: absolute;
+    /*to prevent jumping after setting to fixed */
+    z-index: 10;
+}
+
+
+nav {
+    background-color: FloralWhite;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav div {
+    padding: 8px;
+
+
+}
+
+header {
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 2em;
+    padding-top: 10vh;
+    color: white;
+    text-align: center;
+    height: 65vh;
+    background-attachment: fixed;
+    background-image: url(https://cdn.glitch.me/89d749d8-fc2c-466d-8ba1-fc6ad121ae77%2FApple-logo-3D.jpeg?v=1633425431953);
+    background-position: center;
+    background-size: 1000px;
+}
+
+
+section {
+    background-color: FloralWhite;
+    padding: 20px;
+    margin: 10px auto;
+    color: Black;
+    font-size: 1.1em;
+    max-width: 900px;
+    justify-content: text;
+    text-align: center;
+}
+
+footer {
+    background-color: LightPink;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+figcaption {
+    font-size: 0.7em;
+    font-style: italic;
+    opacity: 0.4;
+}
